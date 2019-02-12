@@ -6,6 +6,11 @@
     "bower_components",
     "output"
   ],
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/athanclark/purescript-pure-css.git"
+  },
   "dependencies": {
     "purescript-prelude": "^4.1.0"
   },
