@@ -9,9 +9,11 @@ import Prelude (class Show, show, (<>))
 pureGrid :: ClassName
 pureGrid = "pure-g"
 
+-- | The `.pure-u` class
 pureUnitAuto :: ClassName
 pureUnitAuto = "pure-u"
 
+-- | The `.pure-u-1` class
 pureUnitWhole :: ClassName
 pureUnitWhole = pureUnitAuto <> "-1"
 
@@ -30,5 +32,6 @@ instance showScreenSize :: Show ScreenSize where
     LG -> "lg"
     XL -> "xl"
 
+-- | Responsive units
 pureUnitResp :: ScreenSize -> Int -> Int -> ClassName
 pureUnitResp r x y = pureUnitAuto <> "-" <> show r <> "-" <> show x <> "-" <> show y
