@@ -1,3 +1,5 @@
+-- | Follows the [Pure.css Grids](https://purecss.io/grids/) documentation.
+
 module PureCSS.Grids where
 
 import PureCSS.Types (ClassName)
@@ -14,7 +16,7 @@ pureUnitWhole :: ClassName
 pureUnitWhole = pureUnitAuto <> "-1"
 
 -- | Assumes the user knows that Pure.css only works in 5ths and 24ths based grids:
--- | see [PureCSS's Grid Docs](https://purecss.io/grids/) for details.
+-- | see [Pure.css Grid Docs](https://purecss.io/grids/) for details.
 pureUnit :: Int -> Int -> ClassName
 pureUnit x y = pureUnitAuto <> "-" <> show x <> "-" <> show y
 

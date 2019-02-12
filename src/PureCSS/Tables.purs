@@ -1,3 +1,5 @@
+-- | Follows the [Pure.css Tables](https://purecss.io/tables/) documentation.
+
 module PureCSS.Tables where
 
 import PureCSS.Types (ClassName)

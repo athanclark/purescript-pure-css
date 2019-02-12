@@ -1,3 +1,5 @@
+-- | Follows the [Pure.css Base](https://purecss.io/base/) documentation.
+
 module PureCSS.Base where
 
 import PureCSS.Types (ClassName)

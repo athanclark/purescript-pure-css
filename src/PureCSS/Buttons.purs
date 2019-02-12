@@ -1,3 +1,5 @@
+-- | Follows the [Pure.css Buttons](https://purecss.io/buttons/) documentation.
+
 module PureCSS.Buttons where
 
 import PureCSS.Types (ClassName)

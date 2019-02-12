@@ -1,3 +1,5 @@
+-- | Follows the [Pure.css Menus](https://purecss.io/menus/) documentation.
+
 module PureCSS.Menus where
 
 import PureCSS.Types (ClassName)

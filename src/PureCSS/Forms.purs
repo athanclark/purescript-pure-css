@@ -1,3 +1,5 @@
+-- | Follows the [Pure.css Forms](https://purecss.io/forms/) documentation.
+
 module PureCSS.Forms where
 
 import PureCSS.Types (ClassName)
